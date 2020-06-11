@@ -21,7 +21,9 @@ public class UserController {
     // 先获取access_token
     // 密码模式
     // http://localhost:8080/oauth/token?grant_type=password&username=mao&password=123456&scope=read_scope&client_id=client-a&client_secret=client-a-secret
-    // http://localhost:8081/user/get/1?access_token=a558376d-d025-4aa3-a3df-d478ddfa5e18
+    // http://localhost:8081/user/get/1?access_token=02c4dce4-0f4b-439c-b90f-1a2a08cf7891
+    // http://localhost:8081/user/get/1
+    // [{"key":"Authorization","value":"bearer 02c4dce4-0f4b-439c-b90f-1a2a08cf7891","description":""}]
     @GetMapping("/get/{id}")
     public User get(@PathVariable Long id) {
         log.info("userId", id);

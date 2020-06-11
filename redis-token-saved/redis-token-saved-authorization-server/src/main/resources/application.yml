@@ -3,7 +3,7 @@ server:
 
 spring:
   redis:
-    host: 127.0.0.1
+    host: bigdope.aliyun
     port: 6379
-    password: 123
+    password: bigdope
     database: 0

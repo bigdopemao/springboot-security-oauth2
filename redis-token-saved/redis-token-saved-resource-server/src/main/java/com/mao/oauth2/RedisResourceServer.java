@@ -8,7 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class RedisResourceServer {
+
     public static void main(String[] args) {
         SpringApplication.run(RedisResourceServer.class, args);
     }
+
 }

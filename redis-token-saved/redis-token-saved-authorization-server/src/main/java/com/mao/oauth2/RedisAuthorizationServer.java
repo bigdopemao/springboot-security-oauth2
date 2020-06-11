@@ -14,4 +14,5 @@ public class RedisAuthorizationServer {
     public static void main(String[] args) {
         SpringApplication.run(RedisAuthorizationServer.class, args);
     }
+
 }

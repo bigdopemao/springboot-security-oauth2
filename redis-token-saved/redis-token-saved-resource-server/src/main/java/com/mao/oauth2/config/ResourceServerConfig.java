@@ -24,6 +24,8 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
     public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
         // 无状态
         resources.stateless(true);
+        //设置token存储
+        resources.tokenStore(tokenStore());
     }
 
     /**
